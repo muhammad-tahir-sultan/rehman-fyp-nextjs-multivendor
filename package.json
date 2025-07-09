@@ -5,9 +5,9 @@
   "scripts": {
     "email": "email dev",
     "seed": "npx tsx ./lib/db/seed.ts",
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev --turbopack",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
